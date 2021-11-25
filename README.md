@@ -2,11 +2,9 @@
 
 Fernando Yuri
 
-Foram realizadas as seguintes alterações com relação ao projeto original:
+Projeto desenvolvido para o Bootcamp Capgemini Fullstack Java and Angular.
 
-
-
-O desenvolvimento do projeto foi realizado por Rodrigo Peleias que abordou os seguintes tópicos:
+Foi utilizado o código fonte desenvolvido pelo especialista Rodrigo Peleias que construiu o projeto abordando os seguintes tópicos:
 
 * Setup inicial de projeto com o Spring Boot Initialzr 
 * Criação de modelo de dados para o mapeamento de entidades em bancos de dados
@@ -16,4 +14,7 @@ O desenvolvimento do projeto foi realizado por Rodrigo Peleias que abordou os se
 * Implantação do sistema na nuvem através do Heroku
 
 
-
+<h3>Minhas alterações no projeto:</h3> 
+1. Criação da classe ProfessionDTO no pacote request;
+2. Criação da classe Profession no pacote entities;
+3. Crtiação do enum ProfessionType no pacote enums;

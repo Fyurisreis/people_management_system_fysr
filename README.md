@@ -21,9 +21,13 @@ spring.datasource.driver-class-name=org.h2.Driver
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
 5. Modificações no JDBC URL do http://localhost:8080/h2-console:
-
 ```
 jdbc:h2:mem:test
+```
+
+6. Deploy do projeto no Heroko:
+```
+https://people-management-system-fysr.herokuapp.com/api/v1/people
 ```
 
 Foi utilizado o código fonte desenvolvido pelo especialista Rodrigo Peleias que construiu o projeto abordando os seguintes tópicos:

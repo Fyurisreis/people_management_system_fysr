@@ -13,15 +13,14 @@ import javax.persistence.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-
 public class Profession {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = true)
+    @Enumerated
+    @Column(name = "type")
     private ProfessionType type;
 
     @Column(nullable = true)

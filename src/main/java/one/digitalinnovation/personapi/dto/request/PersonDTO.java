@@ -21,11 +21,11 @@ public class PersonDTO {
     private Long id;
 
     @NotEmpty
-    @Size(min = 2, max = 100)
+    @Size(min = 2, max = 50)
     private String firstName;
 
     @NotEmpty
-    @Size(min = 2, max = 100)
+    @Size(min = 2, max = 50)
     private String lastName;
 
     @NotEmpty
@@ -38,4 +38,7 @@ public class PersonDTO {
     @Valid
     @NotEmpty
     private List<PhoneDTO> phones;
+
+    @NotEmpty
+    private List<ProfessionDTO> professions;
 }

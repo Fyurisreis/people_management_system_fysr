@@ -1,9 +1,6 @@
 package one.digitalinnovation.personapi.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import one.digitalinnovation.personapi.enums.ProfessionType;
 
 import javax.persistence.*;
@@ -20,7 +17,7 @@ public class Profession {
     private Long id;
 
     @Enumerated
-    @Column(name = "type")
+    @Column(nullable = false)
     private ProfessionType type;
 
     @Column(nullable = true)

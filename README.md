@@ -10,7 +10,7 @@ Projeto desenvolvido para o Bootcamp Capgemini Fullstack Java and Angular.
 
 2. Criação da classe Profession no pacote entities;
 
-3. Crtiação do enum ProfessionType no pacote enums;
+3. Criação do enum ProfessionType no pacote enums;
 
 4. Adição de código no application.properties:
 ```
